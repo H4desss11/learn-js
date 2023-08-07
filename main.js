@@ -9,4 +9,3 @@ let deotLabes = Array.of('Hiking', 'Running', 'Hunting');
 
 let hiking = { category: 'Hiking' };
 categories.add(hiking);
-alert(categories.has(hiking))
