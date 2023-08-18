@@ -12,61 +12,142 @@
         th {
             border: 1px solid #000000;
             text-align: left;
-            padding: 8px;
+            padding: 22px;
         }
         
         tr :nth-child(even) {
             background-color: #dddddd;
         }
+        
+        .srv {
+            border-bottom: 5px dotted #000000;
+            padding: 5px;
+            font-size: 50px;
+            text-align: center;
+            color: darkgreen
+        }
+        
+        .serv {
+            font-size: large;
+            color: darkred
+        }
+        
+        .srvc {
+            color: darkblue
+        }
+        
+        a:link {
+            color: darkcyan;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: darkgreen;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: darkred;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: darkslateblue;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        
+        .svr {
+            text-align: center;
+            color: darkslategrey;
+        }
+        
+        .contact {
+            font-size: medium;
+            color: darkolivegreen
+        }
+        
+        .form {
+            color: black
+        }
     </style>
 </head>
 
-<body>
-    <h2>Service</h2>
+<body class="serv">
+    <h2 class="srv"> Recommended Services
+    </h2>
+    <p class="svr">services in Sofia</p>
     <table>
-        <tr>
-            <th>Company</th>
-            <th> address</th>
-            <th>site</th>
+        <tr class="srvc">
+            <th> Company
+            </th>
+            <th> address
+            </th>
+            <th> site
+            </th>
         </tr>
-        <td>Бултрако Моторс АД </td>
-        <td> улица „Челопешко шосе“ 40, 1839 София</td>
+        <td> Бултрако Моторс АД
+        </td>
+        <td> улица "Челопешко шосе" 40, 1839 София
+        </td>
         <td>
             <p>
-                <a href="https://motointegrator.com/bg/bg/serviz/sofiya/m46kz5j5-bultrako-motors-ad-bosch-service">link to the Service</a>
+                <a href="https://motointegrator.com/bg/bg/serviz/sofiya/m46kz5j5-bultrako-motors-ad-bosch-service"> link to the Service
+                        </a>
             </p>
         </td>
         <tr>
-            <td>moto-pfohe</td>
-            <td>Софийски околовръстен път 483, 1839 София</td>
+            <td> moto - pfohe
+            </td>
+            <td> Софийски околовръстен път 483, 1839 София
+            </td>
             <td>
                 <p>
-                    <a href="https://www.volvocars.com/bg/">link to the Service</a>
+                    <a href="https://www.volvocars.com/bg/"> link to the Service </a>
                 </p>
             </td>
         </tr>
         <tr>
-            <td>6plus</td>
-            <td>бул. "Андрей Лапчев" 72, 1784 g.k. Mladost 2, Sofia</td>
+            <td> 6 plus
+            </td>
+            <td>
+                бул. "Андрей Лапчев" 72, 1784 г.к. Младост 2, София
+            </td>
             <td>
                 <p>
-                    <a href="https://6plus.bg/">link to the Service</a></p>
+                    <a href="https://6plus.bg/"> link to the Service</a>
+                </p>
             </td>
         </tr>
         <tr>
-            <td>q-service</td>
-            <td>бул. ,,Никола Габровски" 100, 1700 София</td>
+            <td> q-service </td>
+            </td>
+            <td>бул. "Никола Габровски" 100, 1700 София</td>
             <td>
                 <p>
-                    <a href="https://www.q-service.bg/avtoservizi/sofia-grad/">link to the Service</a></p>
+                    <a href="https://www.q-service.bg/avtoservizi/sofia-grad/"> link to the Service
+                            </a>
+                </p>
             </td>
         </tr>
-        <td>S Car Service</td>
-        <td>гр. София, бул. „св. Климент Охридски“ 65A</td>
+        <td> S Car Service
+        </td>
+        <td> гр. София, бул. "св.Климент Охридски" 65 A
+        </td>
         <td>
             <p>
-                <a href="https://scar-service.com/#za-nas">link to the Service</a>
+                <a href="https://scar-service.com/#za-nas"> link to the Service
+                        </a>
             </p>
         </td>
+        </h3>
     </table>
-</body>
+    <p class="contact"> if you want more info we will contact you. Just send us email and name to know who we are contacting :) </p>
+    <form class="form" action="/action_page.html">
+        <label for="lname">E-mail:</label><br>
+        <input type="text" id="lname" name="lname" value="name@example.com"><br><br>
+        <input type="submit" value="Send">
+    </form>

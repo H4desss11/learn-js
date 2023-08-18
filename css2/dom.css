@@ -1,0 +1,29 @@
+h1 {
+    color: hotpink;
+    border-bottom: dotted purple;
+    font-size: 100px;
+}
+
+h2 {
+    font: italic
+}
+
+ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 5px;
+    font-size: x-large;
+}
+
+a:hover {
+    color: green;
+}
+
+p {
+    font-size: 35px;
+}
+
+.job-title {
+    font-size: x-large;
+    color: gray
+}
